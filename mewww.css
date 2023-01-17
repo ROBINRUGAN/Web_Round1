@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main{
+    position: absolute;
+    left: 15%;
+    right: 15%;
+}
+#header{
+    text-align: center;
+    padding: 20px;
+}
+#header>span>a{
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+#header>span>a:hover{
+    block-size: 40px;
+    text-decoration:underline;
+    text-decoration-color:black;
+    background-color:rgb(70, 128, 215);
+}
+#简介{
+    height: 210px;
+    border-style: solid;
+    border-color: rgb(56,95,152);
+    border-radius: 30px;
+    border-width: 2px;
+}
+#简介>div{
+    height: 210px; 
+    block-size: 100%;
+    display: inline-block;
+}
+#简介文字{
+    display: inline-block;
+    block-size: 100%;
+}
+ #简介文字>p{
+    display: inline-block;
+    padding: 100px;
+    margin-left: 45px;
+    font-size: 18px;
+     text-align: left;
+      position: relative;
+     left: 8%;
+     top: -110%; 
+   
+} 
+#简介>div>img{
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-right: 15px;
+     height: 150px;
+    width: 150px; 
+    border-radius: 50%;
+    display: inline-block;
+}
+#三列人物介绍{
+    position: relative;
+    top: 30px;
+    text-align:center;
+}
+#三列人物介绍>div{
+    display:inline-block;
+    height:100%;
+    width:25%;
+}
+#三列人物介绍>div>img{
+    border-radius:30px;
+    margin-top:25px;
+    height:100%;
+    width:100%;
+}
+#三列人物介绍>div>img:hover{
+    position:relative;
+    height:115%;
+    width:115%;
+}
+
+#三列人物介绍>div>div{
+    border-radius:30px;
+    height:160px;
+}
+#三列人物介绍>div>div>h2{
+    color:white;
+    margin:5px;
+    font-size: 120%;
+}
+#三列人物介绍>div>div>p{
+    margin-left:20px;
+    color:white;
+    font-size:117%;
+    text-align:left;
+}
+#表格{
+    position: relative;
+    top:50px;
+    width:100%;
+    height: 100%;
+    border-spacing: 0;
+}
+.d1{
+    margin: 50px;
+    text-align:center;
+    width:58%;
+    background-color:rgb(153,204,225);
+}
+.d2{
+    text-align:center;
+    width:33%;
+    background-color:rgb(135,206,235);
+}
+.d3{
+    text-align:center;
+    width:20%;
+    background-color:rgb(102,153,204);
+}
+#提交{
+   position: relative;
+   top: 110px;
+    float:right;
+    border-width:0;
+    font-size:25px;
+    background-color:rgb(100,149,237);
+    color:white;
+    height:60px;
+    width:170px;
+    margin:10px;
+}
+#提交:hover{
+    cursor:pointer;
+    background-color:rgb(0,0,221);
+}
